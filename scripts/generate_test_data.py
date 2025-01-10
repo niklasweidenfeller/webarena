@@ -1,6 +1,8 @@
 """Replace the website placeholders with website domains from env_config
 Generate the test data"""
 import json
+from dotenv import load_dotenv
+load_dotenv()
 
 from browser_env.env_config import *
 

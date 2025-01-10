@@ -1,4 +1,6 @@
 """Script to automatically login each website"""
+from dotenv import load_dotenv
+load_dotenv()
 import argparse
 import glob
 import os

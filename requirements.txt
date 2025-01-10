@@ -1,8 +1,8 @@
 gymnasium
-playwright==1.32.1
+playwright==1.43.0
 Pillow
 evaluate
-openai==0.27.0
+# openai==0.27.0
 types-tqdm
 tiktoken
 aiolimiter
@@ -11,3 +11,5 @@ flask
 nltk
 text-generation
 transformers==4.33.2
+python-dotenv
+generative-ai-hub-sdk==4.1.1
